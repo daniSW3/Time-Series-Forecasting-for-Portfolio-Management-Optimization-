@@ -1,0 +1,15 @@
+[project]
+name = "Time Series Forecasting for Portfolio Management Optimization"
+version = "0.1.0"
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "pytest>=8.3.2",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

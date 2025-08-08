@@ -1,0 +1,3 @@
+app:
+  name: Time Series Forecasting for Portfolio Management Optimization
+  debug: true
